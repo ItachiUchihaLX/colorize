@@ -13,6 +13,6 @@ try:
             print(colors[i][0], end='')            
             if i == (len(colors) - 1):
                 print(' ', end='')                     
-            print(' - ' + color(colors[i][1], colors[i][1]))
+            print(' - ' + colorize(colors[i][1], colors[i][1]))
 except:
     pass
