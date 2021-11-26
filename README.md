@@ -9,23 +9,19 @@ cd colorize/
 
 # Implement
 ```python
-import colorize
+from colorize import *
 ```
 # Usage
 ```
-colorize(text, col) - Colorizes a specific Text with a specific color. 
-help() - Shows a list of all colors.
+color(text) - Takes your text as parameter and returns a string in the color of your called function.
 ```
 
 # Example
 ```python
-import colorize
-print(colorize.colorize('This is a text', 'red'))
+from colorize import *
+str1 = colorize.red('Hello')
+str2 = colorize.blue(' world')
+str3 = colorize.green('!')
+
+print(str1 + str2 + str3)
 ```
-Output:
-```
-This is a red Text
-```
-But it's red, of course.
-<br/><br/>
-If you have any feedback or problems, you can write them in "Issues".
