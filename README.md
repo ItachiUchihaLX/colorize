@@ -9,7 +9,7 @@ cd colorize/
 
 # Implement
 ```python
-from colorize import *
+import colorize
 ```
 # Usage
 ```
@@ -18,7 +18,8 @@ color(text) - Takes your text as parameter and returns a string in the color of 
 
 # Example
 ```python
-from colorize import *
+import colorize
+
 str1 = colorize.red('Hello')
 str2 = colorize.blue(' world')
 str3 = colorize.green('!')
